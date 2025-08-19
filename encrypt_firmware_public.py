@@ -4,6 +4,15 @@ import os
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 from cryptography.hazmat.backends import default_backend
 
+# 動作させるための手順:
+# pip install cryptography
+# 作業ディレクトリでコマンドプロンプトを開く
+# python encrypt_firmware_public.py ファームウェアの名前.bin 任意の名前(暗号化済ファイル).bin
+
+# このツールはOTAアップデートのためにバイナリファイルを暗号化するものです。
+# 暗号化したバイナリファイルをOTAアップデート用のファイルとして選択してください。
+# (元々この領域を他人に触らせることを想定していなかったため複雑です)
+
 # DD_Tuningで使用しているAESキーを以下に設定してください
 AES_KEY = bytes([
     0x60, 0xc2, 0x89, 0x17, 0x67, 0x29, 0x1b, 0x3f,

@@ -1,6 +1,10 @@
 import random
 import secrets
 
+# これを実行するとAESキーが出力されます。
+# 出力されたキーをDD_Tuning側と暗号化ツール側に適用してください。
+# また、キーを紛失しないように保存しておいてください。
+
 def generate_aes_key(length=32):
     """
     セキュアな32バイトのAESキーを生成する
