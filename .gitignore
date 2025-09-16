@@ -1,0 +1,23 @@
+# ESP-IDFのビルド成果物
+/build
+/build_*
+
+# プロジェクト設定のバックアップ
+/sdkconfig.old
+
+# Component Managerの管理下にあるコンポーネント
+/managed_components
+
+# 依存関係のロックファイルの古いバージョン
+/dependencies.lock.old
+
+# IDEやエディタ固有の設定ファイル (例: Visual Studio Code)
+/.vscode/
+/.history/
+
+# Pythonのキャッシュファイル
+__pycache__/
+*.pyc
+
+# テスト関連のキャッシュ
+.pytest_cache/
