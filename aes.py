@@ -1,6 +1,8 @@
 import random
 import secrets
 
+# ※先にPythonをインストールしてください
+# pip install secretsを実行した後、動作させられるはずです。
 # これを実行するとAESキーが出力されます。
 # 出力されたキーをDD_Tuning側と暗号化ツール側に適用してください。
 # また、キーを紛失しないように保存しておいてください。
@@ -52,4 +54,5 @@ def main():
     print(iv_array)
 
 if __name__ == "__main__":
+
     main()
