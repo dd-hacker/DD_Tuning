@@ -67,7 +67,7 @@ B社のDD車をいじるプロジェクトです。<br>
 -   Arduino IDEが使用できる環境
 -   Android 9以降を搭載していて、Bluetooth Low Energyをサポートする端末
 -   nRF ConnectとWebブラウザ(もしくは後日公開予定のAndroidアプリとWebブラウザ)
--   SoCが`ESP32-C3`のマイコン(推奨)
+-   SoCが`ESP32-C3`のマイコン(推奨)※次期バージョンではESP32-S3のみのサポートになる予定です
     -   Flashが4MB以上のものを推奨します。
     -   `ESP32-C3`以外のSoCでもできるだけ動作するようにしていますが、<br>
         Hシリーズ、Pシリーズ、S2など、Wi-FiとBluetooth(BLE)が搭載されていないSoCでは使用できません。
